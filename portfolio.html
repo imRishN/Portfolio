@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rishab Nahata</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+	<script  src="js/index.js"></script>
+</head>
+
+<body>
+	<header class="navbar navbar-default navbar-fixed-top" id="banner">
+
+		<div class="container">
+			<a class="scrollable" href="#top">
+				<img src="kgp.png" alt="IIT Kharagpur" title="IIT Kharagpur"  />
+			</a>
+			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav class="collapse navbar-collapse" id="navbar" role="navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="scrollable" href="#top">About</a></li>
+					<li><a class="scrollable" href="#portfolio">Portfolio</a></li>
+					<li><a class="scrollable" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<a id="top" name="home"></a>
+	<main>
+		<header>
+			<img src="rishab.jpeg" alt="Picture of Rishab at Restaurant." title="Picture of Rishab at Restaurant." width="20%" />
+			<div class="intro-text">
+				<p>I am a Third Year Undergraduate Student at Indian Institute of Technology, Kharagpur. I'm a tech savvy person, fascinated by Computer Science and Startups and a open source enthusiast. My interests include Coding and Entrepreneurship. I enjoy finding new ways to do old things and solving the problems.</p>
+				<hr class="star-bright"/>
+				<span class="skills">Techie - Developer - Entrepreneur
+				</span>
+			</div>
+			
+		</header>
+
+		<section id="portfolio">
+			<h2>PROJECTS</h2>
+			<hr class="star-dark"/>
+			<ul class="grid">
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+				<li><img class="card-img-top" src="img/opensoft.png" alt="Card image cap"></li>
+			</ul>
+		</section>
+
+		<section id="contact">
+			<h2>Reach Me</h2>
+			<hr class="star-dark"/>
+			<div>
+				<form id="contactForm" novalidate="">
+					<div class="form-item">
+						<label for="“name”">Name</label>
+						<input id="name" type="text" placeholder="Name" required=""/>
+					</div>
+					<div class="form-item">
+						<label for="“email”">Email Address</label>
+						<input id="email" type="email" placeholder="Email Address" required=""/>
+					</div>
+					<div class="form-item">
+						<label for="“phone”">Phone Number</label>
+						<input id="phone" type="tel" placeholder="Phone Number" required=""/>
+					</div>
+					<div class="form-item">
+						<label for="“message”">Message</label>
+						<textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+					</div><br/>
+					<button type="submit">Send</button>
+				</form>
+				<div>
+					<p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, etc etc, random questions about the universe and the meaning of life... just feel free to drop me a line anytime.</p>
+					<hr class="star-dark"/>
+					<p>
+						<i class="glyphicon glyphicon-map-marker locicon"></i>
+						: B-220, Radha Krishnan Hall of Residence,
+						<a href="https://www.google.co.in/maps/dir//22.3181183,87.2983329/@22.3180953,87.2984053,21z" target="_blank">IIT Kharagpur.</a>
+					</p>
+					<p>
+						<i class="glyphicon glyphicon-earphone locicon"></i>
+						: +91 8420885001
+					</p>
+					<hr class="liner" />
+				</div>
+			</div>
+		</section>
+
+		<div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+
+	</main>
+	<footer>
+		<div id="footer-above">
+			<div class="center">
+				<h3>social networks</h3>
+				<ul>
+					<li><a class="button social" href="https://www.facebook.com/imRishN07"><i class="fa fa-fw fa-facebook"></i></a></li>
+					<li><a class="button social" href="https://www.linkedin.com/in/imrishn"><i class="fa fa-fw fa-linkedin"></i></a></li>
+					<li><a class="button social" href="https://github.com/imRishN"><i class="fa fa-fw fa-github"></i></a></li>
+					<li><a class="button social" href="https://twitter.com/imRishN"><i class="fa fa-fw fa-twitter"></i></a></li>
+
+				</ul>
+			</div>
+		</div>
+		<div>
+			<p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-heart"></i> by <a href="https://www.linkedin.com/in/imrishn/">Rishab Nahata</a></p>
+		</div>
+		<div id="footer-below">Rishab Nahata © 
+			<script>document.write(new Date().getFullYear())</script>. All Rights Reversed
+		</div>
+	</footer>
+</body>
+</html>
+
